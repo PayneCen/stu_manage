@@ -7,8 +7,8 @@ def dbopen():
     db = pymysql.connect(
         host="localhost",
         port=3306,
-        user="root",
-        password="20001114",
+        user="your username",
+        password="your password",
         database="stu_manage",
         charset="utf8"
     )
